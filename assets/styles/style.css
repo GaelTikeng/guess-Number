@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  gap: 1.5rem;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  background-image: linear-gradient(115deg, #bb690ccc, #ac8827b3), url("https://www.funbrain.com/assets/img/content-cards/games%2Fguess_the_number.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 3px 7px 0 #1c1c1d;
+}
+
+.display {
+  padding: 20px 0;
+  color: #000;
+}
+
+.btn {
+  padding: 10px 30px;
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 20%;
+}
+
+.guessnum {
+  padding: 10px 0;
+}
+
+.life {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.display,
+.disp {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .maincontainer {
+    width: 96%;
+  }
+}
